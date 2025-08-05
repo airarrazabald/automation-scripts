@@ -23,3 +23,5 @@ if ($existe) {
 # Agregar el registro
 $registro | Out-File -FilePath C:\Windows\System32\drivers\etc\hosts -Encoding ASCII -Append
 Write-Host "Registro DNS agregado correctamente." -
+
+##prueba
