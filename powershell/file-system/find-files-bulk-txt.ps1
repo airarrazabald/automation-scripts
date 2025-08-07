@@ -1,0 +1,2 @@
+# Script para buscar archivos con extensión .pdf y volcar la información en un archivo txt
+Get-ChildItem -Path "C:\Users\TuUsuario\Documentos" -Recurse -Filter "*.pdf" >> C:\Users\TuUsuario\lista_archivos.txt
